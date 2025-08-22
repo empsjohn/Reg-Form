@@ -1,0 +1,78 @@
+/* Basic styling for the registration form */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    background-color: rgba(202, 255, 177, 0.322);
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.form h1 {
+    text-align: center;
+}
+.form div {
+    margin-bottom: 15px;
+}
+
+.form div div {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, #tech {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 25%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.message {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.error-message {
+    color: red;
+    font-size: 13px;
+    margin-top: 4px;
+}
+

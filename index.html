@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    
+    <div class="form">
+        <h1>REGISTRATION FORM</h1><br>
+        <div>
+            <div>First Name</div>
+            <input type="text" id="firstName" required>
+        </div>
+        <div>
+            <div>Middle Name</div>
+            <input type="text" id="middleName">
+        </div>
+        <div>
+            <div>Last Name</div>
+            <input type="text" id="lastName" required>
+        </div>
+        <div>
+            <div>Batch</div>
+            <input type="text" id="batch" required>
+        </div>
+        <div>
+            <div>Technology</div>
+            <select id="tech" required>
+                <option value="" disabled selected></option>
+                <option value="COMPUTER">COMPUTER</option>
+                <option value="ELECTRICAL">ELECTRICAL</option>
+                <option value="ELECTRONICS">ELECTRONICS</option>
+                <option value="MECHANICAL">MECHANICAL</option>
+              </select>
+        </div>
+        <div>
+            <div>ID Number</div>
+            <input type="text" id="ID" required>
+        </div>
+        <div>
+            <div>Contact Number</div>
+            <input type="text" id="contactNum" required>
+        </div>
+
+        
+        <button id="submitBtn">Submit</button>
+
+        
+        <div class="message" id="formMessage"></div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
