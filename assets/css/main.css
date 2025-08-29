@@ -66,13 +66,12 @@ button:hover {
     color: green;
 }
 
-.error {
+input:error {
     color: red;
 }
 
-.error-message {
+.message.error {
     color: red;
     font-size: 13px;
     margin-top: 4px;
 }
-
