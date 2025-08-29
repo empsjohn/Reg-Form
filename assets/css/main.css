@@ -29,7 +29,7 @@ body {
     margin-bottom: 5px;
 }
 
-input, #tech {
+input, select {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -75,3 +75,4 @@ input:error {
     font-size: 13px;
     margin-top: 4px;
 }
+
