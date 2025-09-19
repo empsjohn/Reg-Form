@@ -34,3 +34,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <p><strong>Contact Number:</strong> <?= $contact ?></p>
 </body>
 </html>
+
